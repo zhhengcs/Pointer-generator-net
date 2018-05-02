@@ -1,0 +1,1 @@
+python run_summarization.py --mode=eval --data_path=Big_Sougou/val.bin --POS_vocab_path=Big_Sougou/vocab_pos --vocab_path=Big_Sougou/vocab --log_root=log --exp_name=baidu_exp_with_pos --max_enc_steps=200 --max_dec_steps=10 --lr=0.01 --vocab_size=100000
